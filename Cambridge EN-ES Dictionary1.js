@@ -130,11 +130,11 @@ class enes_Cambridge {
             <style>
                 div.phrasehead{margin: 2px 0;font-weight: bold;}
                 span.star {color: #FFBB00;}
-                span.pos {font-size:0.75em; background-color:white; color:#FFFF00; padding:1px 4px; border-radius:3px;}
+                span.pos {font-size:0.75em; background-color:#FFFF00; color:#FF0000; padding:1px 4px; border-radius:3px;}
                 span.tran {margin:0; padding:0;}
                 span.eng_tran {margin-right:3px; padding:0;}
                 span.chn_tran {font-size:1.0em; background-color:#008000; color:white; padding:1px 4px; border-radius:3px;}
-                ul.sents {font-size:0.8em; list-style:square inside; margin:3px 0;padding:5px;background:rgba(0,0,0,0.1); border-radius:5px;}
+                ul.sents {font-size:0.8em; list-style:square inside; margin:3px 0;padding:5px;background:rgba(255,255,255,0.1); border-radius:5px;}
                 li.sent  {margin:0; padding:0;}
                 span.eng_sent {margin-right:5px;}
                 span.chn_sent {color:#0000FF;}
