@@ -113,7 +113,7 @@ class enes_Cambridge {
                     }
                 }
             }
-            let css = this.renderCSS();
+            let css = ;
             notes.push({
                 css,
                 expression,
