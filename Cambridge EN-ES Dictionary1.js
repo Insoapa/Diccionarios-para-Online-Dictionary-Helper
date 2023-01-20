@@ -95,7 +95,7 @@ class enes_Cambridge {
                         eng_tran = `<span class='eng_tran'>${indicator} ${eng_tran}</span>`;
                         chn_tran = `<br><span class='chn_tran'>${chn_tran}</span>`;
                         let tran = `<span class='tran'>${eng_tran}${chn_tran}</span>`;
-                        definition += phrasehead ? `${phrasehead}${tran}` : `${pos} <br> ${tran}` ;
+                        definition += phrasehead ? `${phrasehead}${tran}` : `${pos}${tran}` ;
 
                         // make exmaple segement
                         let examps = defblock.querySelectorAll('.def-body .examp') || [];
@@ -128,7 +128,7 @@ class enes_Cambridge {
     renderCSS() {
         let css = `
             <style>
-                div.phrasehead{margin: 2px 0;font-weight: bold;}
+                div.phrasehead{margin: 2px 0;font-weight: bold; background-color:#008000; color:#FFFF00;}
                 span.star {color: #FFBB00;}
                 span.pos {font-size:0.75em; background-color:#FFFF00; color:#FF0000; padding:1px 4px; border-radius:3px;}
                 span.tran {margin:0; padding:0;}
