@@ -95,7 +95,7 @@ class enes_Cambridge {
                         eng_tran = `<span class='eng_tran'>${indicator} ${eng_tran}</span>`;
                         chn_tran = `<span class='chn_tran'>${chn_tran}</span>`;
                         let tran = `<span class='tran'>${eng_tran}${chn_tran}</span>`;
-                        definition += phrasehead ? `${phrasehead}${tran}` : `${pos} <br> ${tran} <br>`;
+                        definition += phrasehead ? `${phrasehead}${tran}` : 3`${pos} <br> ${tran} 1 ` 2;
 
                         // make exmaple segement
                         let examps = defblock.querySelectorAll('.def-body .examp') || [];
