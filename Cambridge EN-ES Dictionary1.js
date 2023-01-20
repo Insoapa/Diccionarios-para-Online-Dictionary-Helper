@@ -93,7 +93,7 @@ class enes_Cambridge {
                         if (!eng_tran || !chn_tran) continue;
                         let definition = '';
                         eng_tran = `<span class='eng_tran'>${indicator} ${eng_tran}</span>`;
-                        chn_tran = `<br><span class='chn_tran'>${chn_tran}</span>`;
+                        chn_tran = `<br><br><span class='chn_tran'>${chn_tran}</span>`;
                         let tran = `<span class='tran'>${eng_tran}${chn_tran}</span>`;
                         definition += phrasehead ? `${phrasehead}${tran}` : `${pos}${tran}` ;
 
@@ -126,18 +126,18 @@ class enes_Cambridge {
     }
 
     renderCSS() {
-        let css = `<style>
+        let css =   `<style>
                 div.phrasehead{margin: 2px 0;font-weight: bold;}
-                span.star {background-color:#FFFF00; color: #FFBB00;}
-                span.pos {font-size:0.75em; background-color:#FFFF00; color:#FF0000; padding:1px 4px; border-radius:3px;}
+                span.star {color:#FFBB00;}
+                span.pos {font-size:0.75em; background-color: ; color:#FF0000; border:1px solid; border-color: ;padding:1px 4px; border-radius:10px;}
                 span.tran {margin:0; padding:0;}
-                span.eng_tran {margin-right:3px; padding:0;}
-                span.chn_tran {font-size:1.0em; background-color:#008000; color:white; padding:1px 4px; border-radius:3px;}
-                ul.sents {font-size:0.8em; list-style:square inside; margin:3px 0;padding:5px;background:rgba(155,155,155,0.3); border-radius:5px;}
-                li.sent  {margin:0; padding:0; color:#0000FF;}
-                span.eng_sent {margin-right:5px; color:black;}
+                span.eng_tran {margin-right:3px; padding:0; color: ;}
+                span.chn_tran {font-size:1.0em; background-color:#008000; color:white; padding:1px 4px; border-radius:7.5px;}
+                ul.sents {font-size:0.8em; list-style:square inside; margin:3px 0;padding:5px;background:rgba(180,180,180,0.3); border: 1px solid; border-radius:5px;}
+                li.sent  {margin:0; padding:0; color: ;}
+                span.eng_sent {margin-right:5px; color: ;}
                 span.chn_sent {color:#008000;}
-            </style>`;
+                    </style>`;
         return css;
     }
 }
