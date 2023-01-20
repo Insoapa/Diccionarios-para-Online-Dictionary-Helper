@@ -93,9 +93,9 @@ class enes_Cambridge {
                         if (!eng_tran || !chn_tran) continue;
                         let definition = '';
                         eng_tran = `<span class='eng_tran'>${indicator} ${eng_tran}</span>`;
-                        chn_tran = `<span class='chn_tran'>${chn_tran}</span>`;
+                        chn_tran = `<br><span class='chn_tran'><b>${chn_tran}</b></span>`;
                         let tran = `<span class='tran'>${eng_tran}${chn_tran}</span>`;
-                        definition += phrasehead ? `${phrasehead}<br>${tran}` : `${pos} <br> ${tran}` ;
+                        definition += phrasehead ? `${phrasehead}${tran}` : `${pos} <br> ${tran}` ;
 
                         // make exmaple segement
                         let examps = defblock.querySelectorAll('.def-body .examp') || [];
