@@ -126,10 +126,9 @@ class enes_Cambridge {
     }
 
     renderCSS() {
-        let css = `
-            <style>
-                div.phrasehead{margin: 2px 0;font-weight: bold; background-color:#008000; color:#FFFF00;}
-                span.star {color: #FFBB00;}
+        let css = `<style>
+                div.phrasehead{margin: 2px 0;font-weight: bold;}
+                span.star {background-color:#FFFF00; color: #FFBB00;}
                 span.pos {font-size:0.75em; background-color:#FFFF00; color:#FF0000; padding:1px 4px; border-radius:3px;}
                 span.tran {margin:0; padding:0;}
                 span.eng_tran {margin-right:3px; padding:0;}
