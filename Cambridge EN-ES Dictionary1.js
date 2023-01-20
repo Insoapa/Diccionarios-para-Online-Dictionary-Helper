@@ -127,13 +127,13 @@ class enes_Cambridge {
 
     renderCSS() {
         let css =   `<style>
-                div.phrasehead{margin: 2px 0;font-weight: bold;}
+                div.phrasehead{margin: 2px 0; font-weight: bold;}
                 span.star {color:#FFBB00;}
-                span.pos {font-size:0.75em; background-color:#FFFF00 ; color:#FF0000; border:1px solid; border-color: ;padding:1px 4px; border-radius:10px;}
-                span.tran {margin:0; padding:0;line-height: 22px;}
+                span.pos {font-size:0.75em; background-color:#FFFF80; color:#FF0000; border:1px solid; border-color: ; padding:1px 4px; border-radius:5px;}
+                span.tran {margin:0; padding:0; line-height: 26px;}
                 span.eng_tran {margin-right:3px; padding:0; color: ;}
-                span.chn_tran {font-size:1.0em; background-color:#008000; color:white; padding:1px 4px; border-radius:7.5px;}
-                ul.sents {font-size:0.8em; list-style:square inside; margin:3px 0;padding:5px;background:rgba(180,180,180,0.3); border: 1px solid; border-radius:5px;}
+                span.chn_tran {font-size:1.0em; background-color:#008000; color:white; padding:1px 4px; border-radius:5px;}
+                ul.sents {font-size:0.8em; list-style:square inside; margin:3px 0; padding:5px; background:rgba(180,180,180,0.3); border: 1px solid; border-radius:5px;}
                 li.sent  {margin:0; padding:0; color: ;}
                 span.eng_sent {margin-right:5px; color: ;}
                 span.chn_sent {color:#008000;}
