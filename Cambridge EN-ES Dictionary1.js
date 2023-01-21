@@ -127,7 +127,7 @@ class enes_Cambridge {
 
     renderCSS() {
         let css =   `<style>
-                div.phrasehead{margin: 2px 0; font-weight: bold;}
+                div.phrasehead {margin: 2px 0; font-weight: bold;}
                 span.star {color:#FFBB00;}
                 span.pos {font-size:0.75em; background-color:#FFFF80; color:#FF0000; border:1px solid; border-color: ; padding:1px 4px; border-radius:5px;}
                 span.tran {margin:0; padding:0; line-height: 26px;}
@@ -137,7 +137,7 @@ class enes_Cambridge {
                 li.sent  {margin:0; padding:0; color: ;}
                 span.eng_sent {margin-right:5px; color: ;}
                 span.chn_sent {color:#008000;}
-                    </style>`;
+                     </style>`;
         return css;
     }
 }
