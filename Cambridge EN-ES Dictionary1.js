@@ -133,7 +133,7 @@ class enes_Cambridge {
                 span.tran {margin:0; padding:0; line-height: 26px;}
                 span.eng_tran {margin-right:3px; padding:0; color: ;}
                 span.chn_tran {font-size:1.0em; background-color:#008000; color:white; padding:1px 5px; border-radius:5px;}
-                ul.sents {font-size:0.8em; list-style:square inside; margin:3px 0; padding:5px; background:rgba(180,180,180,0.25); border: 1px solid; border-radius:5px;}
+                ul.sents {font-size:0.8em; list-style:inside; margin:3px 0; padding:5px; background:rgba(180,180,180,0.25); border: 1px solid; border-radius:5px;}
                 li.sent  {margin:0; padding:0; color: ;}
                 span.eng_sent {margin-right:5px; color: ;}
                 span.chn_sent {color:#008000;}
