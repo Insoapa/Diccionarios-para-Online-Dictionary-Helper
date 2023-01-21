@@ -93,7 +93,7 @@ class enes_Cambridge {
                         if (!eng_tran || !chn_tran) continue;
                         let definition = '';
                         eng_tran = `<span class='eng_tran'>${indicator} ${eng_tran}</span>`;
-                        chn_tran = `<br><span class='chn_tran'>${chn_tran}</span>`;
+                        chn_tran = `<br><center><span class='chn_tran'>${chn_tran}</span></center>`;
                         let tran = `<span class='tran'>${eng_tran}${chn_tran}</span>`;
                         definition += phrasehead ? `${phrasehead}${tran}` : `${pos}${tran}` ;
 
