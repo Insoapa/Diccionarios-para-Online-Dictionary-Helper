@@ -58,7 +58,7 @@ class enes_Cambridge {
             if (readings) {
                 let reading_uk = T(readings[0]);
                 let reading_us = T(readings[1]);
-                reading = (reading_uk || reading_us) ? `UK[ ${reading_uk} ] |{audios[1]} US[ ${reading_us} ]` : '';
+                reading = (reading_uk || reading_us) ? `UK[ ${reading_uk} ] |${audios[1]} US[ ${reading_us} ]` : '';
             }
             let pos = T(entry.querySelector('.posgram'));
             pos = pos ? `<span class='pos'>${pos}</span>` : '';
