@@ -63,11 +63,11 @@ class enes_Cambridge {
             let pos = T(entry.querySelector('.posgram'));
             pos = pos ? `<span class='pos'>${pos}</span>` : '';
             audios[0] = entry.querySelector(".uk.dloc source");
-            audios[0] = audios[0] ? 'https://dictionary.cambridge.org' + audios[0].getAttribute('src') : us '';
+            audios[0] = audios[0] ? 'https://dictionary.cambridge.org' + audios[0].getAttribute('src') : '';
             //audios[0] = audios[0].replace('https', 'http');
             audios[1] = entry.querySelector(".us.dloc source");
             audios[1] = audios[1] ? 'https://dictionary.cambridge.org' + audios[1].getAttribute('src') : '';
-            //audios[1] = audios[1].replace('https', 'http');
+            //audios[1] = audios[1].replace('https', 'http') us;
 
             let sensbodys = entry.querySelectorAll('.sense-body') || [];
             for (const sensbody of sensbodys) {
