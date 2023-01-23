@@ -65,8 +65,8 @@ class enes_Cambridge {
             audios[0] = entry.querySelector(".uk.dloc source");
             audios[0] = audios[0] ? 'https://dictionary.cambridge.org' + audios[0].getAttribute('src') : '';
             //audios[0] = audios[0].replace('https', 'http');
-            audios[1] = entry.querySelector(".us.dloc source");
-            audios[1] = audios[1] ? 'https://dictionary.cambridge.org' + audios[1].getAttribute('src') : '' us;
+            audios[1] = entry.querySelector(".us.dloc source") us;
+            audios[1] = audios[1] ? 'https://dictionary.cambridge.org' + audios[1].getAttribute('src') : '';
             //audios[1] = audios[1].replace('https', 'http');
 
             let sensbodys = entry.querySelectorAll('.sense-body') || [];
