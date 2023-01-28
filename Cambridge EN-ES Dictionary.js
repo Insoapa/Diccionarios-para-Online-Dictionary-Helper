@@ -10,7 +10,7 @@ class enes_Cambridge {
         let locale = await api.locale();
         if (locale.indexOf('CN') != -1) return 'Cambridge EN->ES Dictionary';
         if (locale.indexOf('TW') != -1) return 'Cambridge EN->ES Dictionary';
-        return 'Cambridge EN-ES Dictionary';
+        return 'Cambridge EN->ES Dictionary';
     }
 
     setOptions(options) {
@@ -58,7 +58,7 @@ class enes_Cambridge {
             if (readings) {
                 let reading_uk = T(readings[0]);
                 let reading_us = T(readings[1]);
-                reading = (reading_uk || reading_us) ? `UK[${reading_uk}] US[${reading_us}] ` : '';
+                reading = (reading_uk || reading_us) ? `UK [ ${reading_uk} ] — US [ ${reading_us} ]` : '';
             }
             let pos = T(entry.querySelector('.posgram'));
             pos = pos ? `<span class='pos'>${pos}</span>` : '';
@@ -93,9 +93,9 @@ class enes_Cambridge {
                         if (!eng_tran || !chn_tran) continue;
                         let definition = '';
                         eng_tran = `<span class='eng_tran'>${indicator} ${eng_tran}</span>`;
-                        chn_tran = `<span class='chn_tran'>${chn_tran}</span>`;
+                        chn_tran = `<br><center><span class='chn_tran'>${chn_tran}</span></center>`;
                         let tran = `<span class='tran'>${eng_tran}${chn_tran}</span>`;
-                        definition += phrasehead ? `${phrasehead}${tran}` : `${pos} |>_>| ${tran}`;
+                        definition += phrasehead ? `${phrasehead}${tran}` : `${pos}${tran}` ;
 
                         // make exmaple segement
                         let examps = defblock.querySelectorAll('.def-body .examp') || [];
@@ -126,19 +126,18 @@ class enes_Cambridge {
     }
 
     renderCSS() {
-        let css = `
-            <style>
-                div.phrasehead{margin: 2px 0;font-weight: bold;}
-                span.star {color: #FFBB00;}
-                span.pos {font-size:0.75em; background-color:#ddf4ff; color:#FF0000; padding:1px 4px; border-radius:3px;}
+        let css =   `<style>
+                div.phrasehead {margin: 2px 0; font-weight: bold;}
+                span.star {color:#FFBB00;}
+                span.pos {font-size:0.75em; background-color:#FFFF80; color:#FF0000; border:1px solid; border-color: ; padding:1px 4px; border-radius:5px;}
                 span.tran {margin:0; padding:0;}
-                span.eng_tran {margin-right:3px; padding:0;}
-                span.chn_tran {font-size:1.0em; background-color:#008F39; color:white; padding:1px 4px; border-radius:3px;}
-                ul.sents {font-size:0.8em; list-style:square inside; margin:3px 0;padding:5px;background:rgba(13,71,161,0.1); border-radius:5px;}
-                li.sent  {margin:0; padding:0;}
-                span.eng_sent {margin-right:5px;}
-                span.chn_sent {color:#0000FF;}
-            </style>`;
+                span.eng_tran {margin-right:3px; padding:0; color: ;}
+                span.chn_tran {font-size:1.0em; background-color:#00a000; color:white; padding:1px 5px; border-radius:5px; border: 1px solid #006400; line-height:1.6;}
+                ul.sents {font-size:0.8em; list-style:inside; margin:3px 0; padding:5px; background:rgba(180,180,180,0.25); border: 1px solid #c0c0c0; border-radius:5px;}
+                li.sent  {margin:0; padding:0; color: ;}
+                span.eng_sent {margin-right:5px; color: ;}
+                span.chn_sent {color:#008000;}
+                     </style>`;
         return css;
     }
 }
