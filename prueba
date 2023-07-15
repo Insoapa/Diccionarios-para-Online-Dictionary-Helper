@@ -1,1 +1,143 @@
-var _0x761c=["\x6F\x70\x74\x69\x6F\x6E\x73","\x6D\x61\x78\x65\x78\x61\x6D\x70\x6C\x65","\x77\x6F\x72\x64","","\x6C\x6F\x63\x61\x6C\x65","\x43\x4E","\x69\x6E\x64\x65\x78\x4F\x66","\x43\x61\x6D\x62\x72\x69\x64\x67\x65\x20\x45\x4E\x2D\x3E\x45\x53\x20\x44\x69\x63\x74\x69\x6F\x6E\x61\x72\x79","\x54\x57","\x66\x69\x6E\x64\x43\x61\x6D\x62\x72\x69\x64\x67\x65","\x61\x6C\x6C","\x66\x69\x6C\x74\x65\x72","\x63\x6F\x6E\x63\x61\x74","\x74\x72\x69\x6D","\x69\x6E\x6E\x65\x72\x54\x65\x78\x74","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x64\x69\x63\x74\x69\x6F\x6E\x61\x72\x79\x2E\x63\x61\x6D\x62\x72\x69\x64\x67\x65\x2E\x6F\x72\x67\x2F\x73\x65\x61\x72\x63\x68\x2F\x65\x6E\x67\x6C\x69\x73\x68\x2D\x73\x70\x61\x6E\x69\x73\x68\x2F\x64\x69\x72\x65\x63\x74\x2F\x3F\x71\x3D","\x66\x65\x74\x63\x68","\x74\x65\x78\x74\x2F\x68\x74\x6D\x6C","\x70\x61\x72\x73\x65\x46\x72\x6F\x6D\x53\x74\x72\x69\x6E\x67","\x2E\x70\x72\x20\x2E\x65\x6E\x74\x72\x79\x2D\x62\x6F\x64\x79\x5F\x5F\x65\x6C","\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72\x41\x6C\x6C","\x2E\x68\x65\x61\x64\x77\x6F\x72\x64","\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72","\x2E\x70\x72\x6F\x6E\x20\x2E\x69\x70\x61","\x55\x4B\x20\x5B\x20","\x20\x5D\x20\u2014\x20\x55\x53\x20\x5B\x20","\x20\x5D","\x2E\x70\x6F\x73\x67\x72\x61\x6D","\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x27\x70\x6F\x73\x27\x3E","\x3C\x2F\x73\x70\x61\x6E\x3E","\x2E\x75\x6B\x2E\x64\x6C\x6F\x63\x20\x73\x6F\x75\x72\x63\x65","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x64\x69\x63\x74\x69\x6F\x6E\x61\x72\x79\x2E\x63\x61\x6D\x62\x72\x69\x64\x67\x65\x2E\x6F\x72\x67","\x73\x72\x63","\x67\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65","\x2E\x75\x73\x2E\x64\x6C\x6F\x63\x20\x73\x6F\x75\x72\x63\x65","\x2E\x73\x65\x6E\x73\x65\x2D\x62\x6F\x64\x79","\x63\x68\x69\x6C\x64\x4E\x6F\x64\x65\x73","\x63\x6C\x61\x73\x73\x4C\x69\x73\x74","\x70\x68\x72\x61\x73\x65\x2D\x62\x6C\x6F\x63\x6B","\x63\x6F\x6E\x74\x61\x69\x6E\x73","\x2E\x70\x68\x72\x61\x73\x65\x2D\x74\x69\x74\x6C\x65","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x70\x68\x72\x61\x73\x65\x68\x65\x61\x64\x22\x3E","\x3C\x2F\x64\x69\x76\x3E","\x2E\x64\x65\x66\x2D\x62\x6C\x6F\x63\x6B","\x64\x65\x66\x2D\x62\x6C\x6F\x63\x6B","\x6C\x65\x6E\x67\x74\x68","\x2E\x64\x65\x66\x2D\x68\x65\x61\x64\x20\x2E\x69\x6E\x64\x69\x63\x61\x74\x6F\x72","\x2E\x64\x65\x66\x2D\x68\x65\x61\x64\x20\x2E\x64\x65\x66","\x2E\x64\x65\x66\x2D\x62\x6F\x64\x79\x20\x2E\x74\x72\x61\x6E\x73","\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x27\x65\x6E\x67\x5F\x74\x72\x61\x6E\x27\x3E","\x20","\x3C\x62\x72\x3E\x3C\x63\x65\x6E\x74\x65\x72\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x27\x63\x68\x6E\x5F\x74\x72\x61\x6E\x27\x3E","\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x63\x65\x6E\x74\x65\x72\x3E","\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x27\x74\x72\x61\x6E\x27\x3E","\x2E\x64\x65\x66\x2D\x62\x6F\x64\x79\x20\x2E\x65\x78\x61\x6D\x70","\x3C\x75\x6C\x20\x63\x6C\x61\x73\x73\x3D\x22\x73\x65\x6E\x74\x73\x22\x3E","\x65\x6E\x74\x72\x69\x65\x73","\x2E\x65\x67","\x2E\x74\x72\x61\x6E\x73","\x3C\x6C\x69\x20\x63\x6C\x61\x73\x73\x3D\x27\x73\x65\x6E\x74\x27\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x27\x65\x6E\x67\x5F\x73\x65\x6E\x74\x27\x3E","\x67\x69","\x3C\x62\x3E","\x3C\x2F\x62\x3E","\x72\x65\x70\x6C\x61\x63\x65","\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x62\x72\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x27\x63\x68\x6E\x5F\x73\x65\x6E\x74\x27\x3E","\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x6C\x69\x3E","\x3C\x2F\x75\x6C\x3E","\x70\x75\x73\x68","\x72\x65\x6E\x64\x65\x72\x43\x53\x53","\x3C\x73\x74\x79\x6C\x65\x3E\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x64\x69\x76\x2E\x70\x68\x72\x61\x73\x65\x68\x65\x61\x64\x20\x7B\x6D\x61\x72\x67\x69\x6E\x3A\x20\x32\x70\x78\x20\x30\x3B\x20\x66\x6F\x6E\x74\x2D\x77\x65\x69\x67\x68\x74\x3A\x20\x62\x6F\x6C\x64\x3B\x7D\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x73\x70\x61\x6E\x2E\x73\x74\x61\x72\x20\x7B\x63\x6F\x6C\x6F\x72\x3A\x23\x46\x46\x42\x42\x30\x30\x3B\x7D\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x73\x70\x61\x6E\x2E\x70\x6F\x73\x20\x7B\x66\x6F\x6E\x74\x2D\x73\x69\x7A\x65\x3A\x30\x2E\x37\x35\x65\x6D\x3B\x20\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x63\x6F\x6C\x6F\x72\x3A\x23\x46\x46\x46\x46\x38\x30\x3B\x20\x63\x6F\x6C\x6F\x72\x3A\x23\x46\x46\x30\x30\x30\x30\x3B\x20\x62\x6F\x72\x64\x65\x72\x3A\x31\x70\x78\x20\x73\x6F\x6C\x69\x64\x3B\x20\x62\x6F\x72\x64\x65\x72\x2D\x63\x6F\x6C\x6F\x72\x3A\x20\x3B\x20\x70\x61\x64\x64\x69\x6E\x67\x3A\x31\x70\x78\x20\x34\x70\x78\x3B\x20\x62\x6F\x72\x64\x65\x72\x2D\x72\x61\x64\x69\x75\x73\x3A\x35\x70\x78\x3B\x7D\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x73\x70\x61\x6E\x2E\x74\x72\x61\x6E\x20\x7B\x6D\x61\x72\x67\x69\x6E\x3A\x30\x3B\x20\x70\x61\x64\x64\x69\x6E\x67\x3A\x30\x3B\x7D\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x73\x70\x61\x6E\x2E\x65\x6E\x67\x5F\x74\x72\x61\x6E\x20\x7B\x6D\x61\x72\x67\x69\x6E\x2D\x72\x69\x67\x68\x74\x3A\x33\x70\x78\x3B\x20\x70\x61\x64\x64\x69\x6E\x67\x3A\x30\x3B\x20\x63\x6F\x6C\x6F\x72\x3A\x20\x3B\x7D\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x73\x70\x61\x6E\x2E\x63\x68\x6E\x5F\x74\x72\x61\x6E\x20\x7B\x66\x6F\x6E\x74\x2D\x73\x69\x7A\x65\x3A\x31\x2E\x30\x65\x6D\x3B\x20\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x63\x6F\x6C\x6F\x72\x3A\x23\x30\x30\x61\x30\x30\x30\x3B\x20\x63\x6F\x6C\x6F\x72\x3A\x77\x68\x69\x74\x65\x3B\x20\x70\x61\x64\x64\x69\x6E\x67\x3A\x31\x70\x78\x20\x35\x70\x78\x3B\x20\x62\x6F\x72\x64\x65\x72\x2D\x72\x61\x64\x69\x75\x73\x3A\x35\x70\x78\x3B\x20\x62\x6F\x72\x64\x65\x72\x3A\x20\x31\x70\x78\x20\x73\x6F\x6C\x69\x64\x20\x23\x30\x30\x36\x34\x30\x30\x3B\x20\x6C\x69\x6E\x65\x2D\x68\x65\x69\x67\x68\x74\x3A\x31\x2E\x36\x3B\x7D\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x75\x6C\x2E\x73\x65\x6E\x74\x73\x20\x7B\x66\x6F\x6E\x74\x2D\x73\x69\x7A\x65\x3A\x30\x2E\x38\x65\x6D\x3B\x20\x6C\x69\x73\x74\x2D\x73\x74\x79\x6C\x65\x3A\x69\x6E\x73\x69\x64\x65\x3B\x20\x6D\x61\x72\x67\x69\x6E\x3A\x33\x70\x78\x20\x30\x3B\x20\x70\x61\x64\x64\x69\x6E\x67\x3A\x35\x70\x78\x3B\x20\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x3A\x72\x67\x62\x61\x28\x31\x38\x30\x2C\x31\x38\x30\x2C\x31\x38\x30\x2C\x30\x2E\x32\x35\x29\x3B\x20\x62\x6F\x72\x64\x65\x72\x3A\x20\x31\x70\x78\x20\x73\x6F\x6C\x69\x64\x20\x23\x63\x30\x63\x30\x63\x30\x3B\x20\x62\x6F\x72\x64\x65\x72\x2D\x72\x61\x64\x69\x75\x73\x3A\x35\x70\x78\x3B\x7D\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x6C\x69\x2E\x73\x65\x6E\x74\x20\x20\x7B\x6D\x61\x72\x67\x69\x6E\x3A\x30\x3B\x20\x70\x61\x64\x64\x69\x6E\x67\x3A\x30\x3B\x20\x63\x6F\x6C\x6F\x72\x3A\x20\x3B\x7D\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x73\x70\x61\x6E\x2E\x65\x6E\x67\x5F\x73\x65\x6E\x74\x20\x7B\x6D\x61\x72\x67\x69\x6E\x2D\x72\x69\x67\x68\x74\x3A\x35\x70\x78\x3B\x20\x63\x6F\x6C\x6F\x72\x3A\x20\x3B\x7D\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x73\x70\x61\x6E\x2E\x63\x68\x6E\x5F\x73\x65\x6E\x74\x20\x7B\x63\x6F\x6C\x6F\x72\x3A\x23\x30\x30\x38\x30\x30\x30\x3B\x7D\x0D\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x2F\x73\x74\x79\x6C\x65\x3E"];class enes_Cambridge{constructor(_0x8ff9x2){this[_0x761c[0]]= _0x8ff9x2;this[_0x761c[1]]= 2;this[_0x761c[2]]= _0x761c[3]}async displayName(){let _0x8ff9x4= await api[_0x761c[4]]();if(_0x8ff9x4[_0x761c[6]](_0x761c[5])!=  -1){return _0x761c[7]};if(_0x8ff9x4[_0x761c[6]](_0x761c[8])!=  -1){return _0x761c[7]};return _0x761c[7]}setOptions(_0x8ff9x2){this[_0x761c[0]]= _0x8ff9x2;this[_0x761c[1]]= _0x8ff9x2[_0x761c[1]]}async findTerm(_0x8ff9x7){this[_0x761c[2]]= _0x8ff9x7;let _0x8ff9x8=[this[_0x761c[9]](_0x8ff9x7)];let _0x8ff9x9= await Promise[_0x761c[10]](_0x8ff9x8);return [][_0x761c[12]](..._0x8ff9x9)[_0x761c[11]]((_0x8ff9xa)=>{return _0x8ff9xa})}async findCambridge(_0x8ff9x7){let _0x8ff9xc=[];if(!_0x8ff9x7){return _0x8ff9xc};function _0x8ff9xd(_0x8ff9xe){if(!_0x8ff9xe){return _0x761c[3]}else {return _0x8ff9xe[_0x761c[14]][_0x761c[13]]()}}let _0x8ff9xf=_0x761c[15];let _0x8ff9x10=_0x8ff9xf+ encodeURIComponent(_0x8ff9x7);let _0x8ff9x11=_0x761c[3];try{let _0x8ff9x12= await api[_0x761c[16]](_0x8ff9x10);let _0x8ff9x13= new DOMParser();_0x8ff9x11= _0x8ff9x13[_0x761c[18]](_0x8ff9x12,_0x761c[17])}catch(err){return []};let _0x8ff9x14=_0x8ff9x11[_0x761c[20]](_0x761c[19])|| [];for(const _0x8ff9x15 of _0x8ff9x14){let _0x8ff9x16=[];let _0x8ff9x17=[];let _0x8ff9x18=_0x8ff9xd(_0x8ff9x15[_0x761c[22]](_0x761c[21]));let _0x8ff9x19=_0x761c[3];let _0x8ff9x1a=_0x8ff9x15[_0x761c[20]](_0x761c[23]);if(_0x8ff9x1a){let _0x8ff9x1b=_0x8ff9xd(_0x8ff9x1a[0]);let _0x8ff9x1c=_0x8ff9xd(_0x8ff9x1a[1]);_0x8ff9x19= (_0x8ff9x1b|| _0x8ff9x1c)?`${_0x761c[24]}${_0x8ff9x1b}${_0x761c[25]}${_0x8ff9x1c}${_0x761c[26]}`:_0x761c[3]};let _0x8ff9x1d=_0x8ff9xd(_0x8ff9x15[_0x761c[22]](_0x761c[27]));_0x8ff9x1d= _0x8ff9x1d?`${_0x761c[28]}${_0x8ff9x1d}${_0x761c[29]}`:_0x761c[3];_0x8ff9x17[0]= _0x8ff9x15[_0x761c[22]](_0x761c[30]);_0x8ff9x17[0]= _0x8ff9x17[0]?_0x761c[31]+ _0x8ff9x17[0][_0x761c[33]](_0x761c[32]):_0x761c[3];_0x8ff9x17[1]= _0x8ff9x15[_0x761c[22]](_0x761c[34]);_0x8ff9x17[1]= _0x8ff9x17[1]?_0x761c[31]+ _0x8ff9x17[1][_0x761c[33]](_0x761c[32]):_0x761c[3];let _0x8ff9x1e=_0x8ff9x15[_0x761c[20]](_0x761c[35])|| [];for(const _0x8ff9x1f of _0x8ff9x1e){let _0x8ff9x20=_0x8ff9x1f[_0x761c[36]]|| [];for(const _0x8ff9x21 of _0x8ff9x20){let _0x8ff9x22=_0x761c[3];let _0x8ff9x23=[];if(_0x8ff9x21[_0x761c[37]]&& _0x8ff9x21[_0x761c[37]][_0x761c[39]](_0x761c[38])){_0x8ff9x22= _0x8ff9xd(_0x8ff9x21[_0x761c[22]](_0x761c[40]));_0x8ff9x22= _0x8ff9x22?`${_0x761c[41]}${_0x8ff9x22}${_0x761c[42]}`:_0x761c[3];_0x8ff9x23= _0x8ff9x21[_0x761c[20]](_0x761c[43])|| []};if(_0x8ff9x21[_0x761c[37]]&& _0x8ff9x21[_0x761c[37]][_0x761c[39]](_0x761c[44])){_0x8ff9x23= [_0x8ff9x21]};if(_0x8ff9x23[_0x761c[45]]<= 0){continue};for(const _0x8ff9x24 of _0x8ff9x23){let _0x8ff9x25=_0x8ff9xd(_0x8ff9x24[_0x761c[22]](_0x761c[46]));let _0x8ff9x26=_0x8ff9xd(_0x8ff9x24[_0x761c[22]](_0x761c[47]));let _0x8ff9x27=_0x8ff9xd(_0x8ff9x24[_0x761c[22]](_0x761c[48]));if(!_0x8ff9x26||  !_0x8ff9x27){continue};let _0x8ff9x28=_0x761c[3];_0x8ff9x26= `${_0x761c[49]}${_0x8ff9x25}${_0x761c[50]}${_0x8ff9x26}${_0x761c[29]}`;_0x8ff9x27= `${_0x761c[51]}${_0x8ff9x27}${_0x761c[52]}`;let _0x8ff9x29=`${_0x761c[53]}${_0x8ff9x26}${_0x761c[3]}${_0x8ff9x27}${_0x761c[29]}`;_0x8ff9x28+= _0x8ff9x22?`${_0x761c[3]}${_0x8ff9x22}${_0x761c[3]}${_0x8ff9x29}${_0x761c[3]}`:`${_0x761c[3]}${_0x8ff9x1d}${_0x761c[3]}${_0x8ff9x29}${_0x761c[3]}`;let _0x8ff9x2a=_0x8ff9x24[_0x761c[20]](_0x761c[54])|| [];if(_0x8ff9x2a[_0x761c[45]]> 0&& this[_0x761c[1]]> 0){_0x8ff9x28+= _0x761c[55];for(const [index,examp] of _0x8ff9x2a[_0x761c[56]]()){if(index> this[_0x761c[1]]- 1){break};let _0x8ff9x2b=_0x8ff9xd(examp[_0x761c[22]](_0x761c[57]));let _0x8ff9x2c=_0x8ff9xd(examp[_0x761c[22]](_0x761c[58]));_0x8ff9x28+= `${_0x761c[59]}${_0x8ff9x2b[_0x761c[63]](RegExp(_0x8ff9x18,_0x761c[60]),`${_0x761c[61]}${_0x8ff9x18}${_0x761c[62]}`)}${_0x761c[64]}${_0x8ff9x2c}${_0x761c[65]}`};_0x8ff9x28+= _0x761c[66]};_0x8ff9x28&& _0x8ff9x16[_0x761c[67]](_0x8ff9x28)}}};let _0x8ff9x2d=this[_0x761c[68]]();_0x8ff9xc[_0x761c[67]]({css,expression,reading,definitions,audios})};return _0x8ff9xc}renderCSS(){let _0x8ff9x2d=`${_0x761c[69]}`;return _0x8ff9x2d}}
+/* global api */
+class enes_Cambridge {
+    constructor(options) {
+        this.options = options;
+        this.maxexample = 2;
+        this.word = '';
+    }
+
+    async displayName() {
+        let locale = await api.locale();
+        if (locale.indexOf('CN') != -1) return 'Cambridge EN->ES Dictionary';
+        if (locale.indexOf('TW') != -1) return 'Cambridge EN->ES Dictionary';
+        return 'Cambridge EN->ES Dictionary';
+    }
+
+    setOptions(options) {
+        this.options = options;
+        this.maxexample = options.maxexample;
+    }
+
+    async findTerm(word) {
+        this.word = word;
+        let promises = [this.findCambridge(word)];
+        let results = await Promise.all(promises);
+        return [].concat(...results).filter(x => x);
+    }
+
+    async findCambridge(word) {
+        let notes = [];
+        if (!word) return notes; // return empty notes
+
+        function T(node) {
+            if (!node)
+                return '';
+            else
+                return node.innerText.trim();
+        }
+
+        let base = 'https://dictionary.cambridge.org/search/english-spanish/direct/?q=';
+        let url = base + encodeURIComponent(word);
+        let doc = '';
+        try {
+            let data = await api.fetch(url);
+            let parser = new DOMParser();
+            doc = parser.parseFromString(data, 'text/html');
+        } catch (err) {
+            return [];
+        }
+
+        let entries = doc.querySelectorAll('.pr .entry-body__el') || [];
+        for (const entry of entries) {
+            let definitions = [];
+            let audios = [];
+
+            let expression = T(entry.querySelector('.headword'));
+            let reading = '';
+            let readings = entry.querySelectorAll('.pron .ipa');
+            if (readings) {
+                let reading_uk = T(readings[0]);
+                let reading_us = T(readings[1]);
+                reading = (reading_uk || reading_us) ? `UK [ ${reading_uk} ] — US [ ${reading_us} ]` : '';
+            }
+            let pos = T(entry.querySelector('.posgram'));
+            pos = pos ? `<span class='pos'>${pos}</span>` : '';
+            audios[0] = entry.querySelector(".uk.dloc source");
+            audios[0] = audios[0] ? 'https://dictionary.cambridge.org' + audios[0].getAttribute('src') : '';
+            //audios[0] = audios[0].replace('https', 'http');
+            audios[1] = entry.querySelector(".us.dloc source");
+            audios[1] = audios[1] ? 'https://dictionary.cambridge.org' + audios[1].getAttribute('src') : '';
+            //audios[1] = audios[1].replace('https', 'http');
+
+            let sensbodys = entry.querySelectorAll('.sense-body') || [];
+            for (const sensbody of sensbodys) {
+                let sensblocks = sensbody.childNodes || [];
+                for (const sensblock of sensblocks) {
+                    let phrasehead = '';
+                    let defblocks = [];
+                    if (sensblock.classList && sensblock.classList.contains('phrase-block')) {
+                        phrasehead = T(sensblock.querySelector('.phrase-title'));
+                        phrasehead = phrasehead ? `<div class="phrasehead">${phrasehead}</div>` : '';
+                        defblocks = sensblock.querySelectorAll('.def-block') || [];
+                    }
+                    if (sensblock.classList && sensblock.classList.contains('def-block')) {
+                        defblocks = [sensblock];
+                    }
+                    if (defblocks.length <= 0) continue;
+
+                    // make definition segement
+                    for (const defblock of defblocks) {
+                        let indicator = T(defblock.querySelector('.def-head .indicator'));
+                        let eng_tran = T(defblock.querySelector('.def-head .def'));
+                        let chn_tran = T(defblock.querySelector('.def-body .trans'));
+                        if (!eng_tran || !chn_tran) continue;
+                        let definition = '';
+                        eng_tran = `<span class='eng_tran'>${indicator} ${eng_tran}</span>`;
+                        chn_tran = `<br><center><span class='chn_tran'>${chn_tran}</span></center>`;
+                        let tran = `<span class='tran'>${eng_tran}${chn_tran}</span>`;
+                        definition += phrasehead ? `${phrasehead}${tran}` : `${pos}${tran}` ;
+
+                        // make exmaple segement
+                        let examps = defblock.querySelectorAll('.def-body .examp') || [];
+                        if (examps.length > 0 && this.maxexample > 0) {
+                            definition += '<ul class="sents">';
+                            for (const [index, examp] of examps.entries()) {
+                                if (index > this.maxexample - 1) break; // to control only 2 example sentence.
+                                let eng_examp = T(examp.querySelector('.eg'));
+                                let chn_examp = T(examp.querySelector('.trans'));
+                                definition += `<li class='sent'><span class='eng_sent'>${eng_examp.replace(RegExp(expression, 'gi'),`<b>${expression}</b>`)}</span></br><span class='chn_sent'>${chn_examp}</span></li>`;
+                            }
+                            definition += '</ul>';
+                        }
+                        definition && definitions.push(definition);
+                    }
+                }
+            }
+            let css = this.renderCSS();
+            notes.push({
+                css,
+                expression,
+                reading,
+                definitions,
+                audios
+            });
+        }
+        return notes;
+    }
+
+    renderCSS() {
+        let css =   `<style>
+                div.phrasehead {margin: 2px 0; font-weight: bold;}
+                span.star {color:#FFBB00;}
+                span.pos {font-size:0.75em; background-color:#FFFF80; color:#FF0000; border:1px solid; border-color: ; padding:1px 4px; border-radius:5px;}
+                span.tran {margin:0; padding:0;}
+                span.eng_tran {margin-right:3px; padding:0; color: ;}
+                span.chn_tran {font-size:1.0em; background-color:#00a000; color:white; padding:1px 5px; border-radius:5px; border: 1px solid #006400; line-height:1.6;}
+                ul.sents {font-size:0.8em; list-style:inside; margin:3px 0; padding:5px; background:rgba(180,180,180,0.25); border: 1px solid #c0c0c0; border-radius:5px;}
+                li.sent  {margin:0; padding:0; color: ;}
+                span.eng_sent {margin-right:5px; color: ;}
+                span.chn_sent {color:#008000;}
+                     </style>`;
+        return css;
+    }
+}
